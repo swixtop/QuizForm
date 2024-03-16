@@ -1,18 +1,26 @@
-## Getting Started
+# Quiz Application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is a simple Quiz Application developed using JavaFX.
 
-## Folder Structure
+## Files
 
-The workspace contains two folders by default, where:
+### App.java
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+`App.java` is the main class of the application. It extends `Application` and contains the `start` method, which initializes the JavaFX application by loading the main FXML file `quiz_menu.fxml` and displaying it in a window.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### QuizMenuController.java
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+`QuizMenuController.java` is the controller class for the Quiz Menu. It handles user interactions with the menu options, such as selecting multiple-choice, short-answer, or true/false questions. Currently, the methods in this class are placeholders for opening respective question pages, which can be implemented using FXMLLoader to load corresponding FXML files.
 
-## Dependency Management
+## Usage
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+To run the Quiz Application, follow these steps:
+1. Ensure you have Java and JavaFX installed on your system.
+2. Compile the Java files.
+3. Run `App.java` to launch the application.
+
+## Technologies Used
+
+- JavaFX: JavaFX is used for building the graphical user interface (GUI) of the application.
+- FXMLLoader: FXMLLoader is used to load FXML files, which define the layout and structure of the application's UI components.
+
